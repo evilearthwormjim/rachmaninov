@@ -1,0 +1,260 @@
+body {
+	font-family: "Century Gothic";
+	color: #0B0937;
+	background: white; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(white, #bfbecb); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(white, #bfbecb); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(white, #bfbecb); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(white, #bfbecb); /* Standard syntax (must be last) */
+	margin: 0;
+}
+
+.spaced_list li{
+
+	line-height: 4em;	
+}
+
+#page_container{
+	width: 1024px;
+	margin: 0 auto;
+	height: 100%;
+	
+}
+
+#content_container{
+	width: 1000px;
+	margin: 10px 20px 80px 20px;
+	padding: 5px;	
+	height: 100%;
+	display: block;
+    
+}
+
+#right_sidebar{
+	
+	background-color: none;
+	float: right;
+	margin: 0 1px 0 0;
+	
+}
+.side_bar_article{
+	font-size: 9pt;
+	margin: 10px 0;
+	width: 195px;
+	height: 195px;
+	
+	z-index: 1;
+	
+}
+#sorcha_portrait_container{
+	
+	width: 195px;
+	height: 195px;
+	overflow: hidden;
+	
+	z-index: 20;
+}
+
+.site_quote{
+	margin: -20px 0 0 0;
+	background-color: #9D9DAF;
+	border: 3px solid #9D9DAF;
+	padding:20px 5px 3px 5px;
+	display: block;
+}
+
+#nav_menu_container{
+	
+	margin:-10px 0 0 0;
+	padding: 0;
+	height:25px;
+	
+}
+#nav_menu {
+	margin:0 0 -3px 0;
+	padding: 8px 0;
+	height: 18px;
+	background: #9d9daf; /* Old browsers */
+	background: -moz-linear-gradient(top, #9d9daf 0%, #0b0937 65%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9d9daf), color-stop(65%,#0b0937)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #9d9daf 0%,#0b0937 65%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #9d9daf 0%,#0b0937 65%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #9d9daf 0%,#0b0937 65%); /* IE10+ */
+	background: linear-gradient(to bottom, #9d9daf 0%,#0b0937 65%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9d9daf', endColorstr='#0b0937',GradientType=0 ); /* IE6-9 */
+}
+
+#nav_menu li.menu_item_container { 
+	position:relative;
+	display: inline;
+	list-style-type: none;
+	padding: 2px 20px;
+}
+
+.nav_menu_hover { 
+	
+	list-style-type: none;
+	padding: 2px 19px;
+	background: #D8D8DF; /* Old browsers */
+	background: -moz-linear-gradient(top, #D8D8DF 0%, #0b0937 65%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#D8D8DF), color-stop(65%,#0b0937)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #D8D8DF 0%,#0b0937 65%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #D8D8DF 0%,#0b0937 65%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #D8D8DF 0%,#0b0937 65%); /* IE10+ */
+	background: linear-gradient(to bottom, #D8D8DF 0%,#0b0937 65%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D8D8DF', endColorstr='#0b0937',GradientType=0 ); /* IE6-9 */
+}
+
+#nav_menu a{
+	text-decoration: none;	
+	color: white;
+}
+
+.menu_item_spacer, .footer_spacer{
+	float: left;
+}
+
+.sub_menu{
+	position: absolute;
+	margin: 0 0 0 0px;
+	padding: 5px 0 5px 0;
+	display: none;
+	width:200px;
+	background: #0b0937;
+}
+
+
+.sub_menu_list li {
+	list-style-type: none;
+	margin:5px 0 5px -20px;
+}
+
+.menu_item_sub_link{
+		margin: 0 0 0 -10px;
+		padding: 2px 0;
+		width: 100%;
+}
+
+.menu_item_sub_link_hover{
+	margin: 0 -19px;
+	padding: 2px 5px;
+	border-right: 4px solid white;
+	border-left: 4px solid white;
+	background-color: #9D9DAF !important;
+}
+
+.menu_item_sub_link a{
+	display: block;
+}
+
+
+#left_main_column{
+	width: 700px;
+	float: left;
+	margin: 0 0 135px 0;
+}
+
+
+
+.sb_school_title{
+	
+	font-size: 20pt;
+}
+.sb_signature{
+	
+	font-weight: bold;
+}
+.sb_school_tagline{
+	
+	color: #9D9DAF;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+.article_list ul { overflow: hidden; }
+
+.article_picture{
+	
+	border: 1pt solid #0B0937;
+	width: 300px;
+	height: 200px;
+	overflow: hidden;
+	float: left;
+	margin: 0 0 0 10px;
+}
+
+
+.location_map{
+	border: 2px solid #0B0937;
+	width: 420px;
+	height: 327px;
+	overflow: hidden;
+}
+
+.pic_box{
+	
+	border: 2px solid #0B0937;
+	width: 400px;
+	height: 327px;
+	overflow: hidden;
+
+}
+
+.left_block{
+	
+	float: left;
+	
+}
+
+.site_links a{
+	text-decoration: none;
+}
+.site_links a:hover{
+	color: red;	
+}
+.site_links img {
+	border : 0;
+}
+
+
+/*
+*****************	Footer Styles	********************************
+*/
+
+#footer_container{
+	position:fixed;
+	width: 600px;
+	bottom: 0;
+	margin: 0 210px;
+	padding: 5px 0 0 0;
+	vertical-align: middle;
+	font-size: 8pt;
+	clear: both;
+	height: 25px;
+	color: white;
+	background-color: #0b0938;
+}
+.footer_group{
+	
+	margin: 0 55px;
+	width: 600px;
+}
+.footer_spacer{
+	vertical-align: middle;
+	height: 1em;
+	line-height: 1em;
+	margin: 0 0 0 0;
+	padding: 0 10px 0 10px;
+	border-left: 1pt solid #0B0937;
+}
+.footer_spacer a{
+	text-decoration: none;
+	color: white;
+}
+.footer_spacer a:hover{
+	color: red;	
+}
+.footer_spacer img {
+	border : 0;
+}
+
