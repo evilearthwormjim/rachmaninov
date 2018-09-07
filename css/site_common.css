@@ -9,7 +9,8 @@ body {
 
 .spaced_list li{
 
-	line-height: 4em;	
+	line-height: 3em;
+	list-style: none;	
 }
 
 #page_container{
@@ -234,13 +235,13 @@ body {
 }
 .footer_group{
 	
-	margin: 0 55px;
-	width: 600px;
+	margin: 0 auto;
+	display: table;
 }
 .footer_spacer{
 	vertical-align: middle;
 	height: 1em;
-	line-height: 1em;
+	line-height: 2em;
 	margin: 0 0 0 0;
 	padding: 0 10px 0 10px;
 	border-left: 1pt solid #0B0937;
